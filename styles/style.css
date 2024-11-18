@@ -1,29 +1,49 @@
-body 
-{
-	font-size: 17px;
-	margin: 1%;
-}
-p 
-{
-	margin: 5px;
-}
-ul
-{
-	margin: 1px;
-}
-li
-{
-	margin: 0px;
-}
-img
-{	
-	max-width: 90%;
-}
-.fix
-{
-    position:fixed;
-    bottom:1%;
-    right:1%;
-    width:30%; 
+@charset "utf-8";
+
+@import url('//cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css');
+
+html {
+	background-color: #eeeeee;
 }
 
+body {
+	font-family: 'Eulyoo1945', serif, system-ui;
+	font-size: 100%;
+	width: 100%;
+	height: 100vh;
+	margin: 1rem;
+	padding: 1rem;
+	line-height: 1.8;
+	color: #1f1f1f;
+}
+
+p {
+	margin: 1rem 0;
+}
+
+ul {
+    padding: none;
+}
+
+li {
+	margin: none;
+}
+
+/* hover 스타일 */
+a:hover {
+	background-color: #ddd;
+	color: #005516;
+}
+
+img {
+	width: 100%;
+	max-width: 512px;
+	height: auto;
+}
+
+
+footer {
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 1rem;
+}
