@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@import url('//cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css');
 @import url('//cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css');
 
 html {
@@ -12,7 +13,7 @@ html {
 }
 
 body {
-	font-family: 'Eulyoo1945', serif, system-ui;
+	font-family: 'SUIT', sans-serif;
 	font-size: 100%;
 	margin: 0.5rem;
 	padding: 0.5rem;
@@ -29,9 +30,24 @@ ul, li {
 }
 
 /* hover 스타일 */
-a:hover {
-	background-color: #ddd;
-	color: #005516;
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
 }
 
 img {
