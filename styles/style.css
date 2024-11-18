@@ -4,17 +4,18 @@
 
 html {
 	background-color: #eeeeee;
-	margin: 0.5rem;
-	padding: 0.5rem;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: 'Eulyoo1945', serif, system-ui;
 	font-size: 100%;
-	width: 100%;
-	height: 100vh;
-	margin: none;
-	padding: none;
+	margin: 0.5rem;
+	padding: 0.5rem;
 	line-height: 1.8;
 	color: #1f1f1f;
 }
@@ -23,12 +24,8 @@ p {
 	margin: 1rem 0;
 }
 
-ul {
-    padding: none;
-}
-
-li {
-	margin: none;
+ul, li {
+	margin: 0;
 }
 
 /* hover 스타일 */
