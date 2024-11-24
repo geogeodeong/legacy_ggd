@@ -1,1 +1,1 @@
-https://geogeodeong.github.io/legacy_ggd/
+https://geogeodeong.github.io/nocss_ggd/
